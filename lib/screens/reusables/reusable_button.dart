@@ -21,7 +21,7 @@ Widget reusableButton({
         backgroundColor: color ?? Colors.blueGrey,
 
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadiusGeometry.circular(radius??10),
+          borderRadius: BorderRadiusGeometry.circular(radius??16),
         ),
       ),
       child: Text(
