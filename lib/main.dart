@@ -3,6 +3,7 @@ import 'package:finmate_app/screens/add_expense_screen.dart';
 import 'package:finmate_app/screens/analytics_screen.dart';
 import 'package:finmate_app/screens/change_pwd_screen.dart';
 import 'package:finmate_app/screens/edit_screen.dart';
+import 'package:finmate_app/screens/examples.dart';
 import 'package:finmate_app/screens/home_screen.dart';
 import 'package:finmate_app/screens/loan_screen.dart';
 import 'package:finmate_app/screens/onboarding_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends ConsumerWidget {
         // useMaterial3: false,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: WalletScreen(),
+      home: HomeScreen(),
     );
   }
 }
